@@ -1,14 +1,12 @@
-module github.com/evmos/os
+module github.com/evmos/aizel
 
 go 1.22.8
 
 require (
 	cosmossdk.io/api v0.7.6
-	cosmossdk.io/core v0.11.1
 	cosmossdk.io/errors v1.0.1
 	cosmossdk.io/log v1.5.0
 	cosmossdk.io/math v1.5.0
-	cosmossdk.io/store v1.1.1
 	cosmossdk.io/tools/confix v0.1.2
 	cosmossdk.io/x/evidence v0.1.1
 	cosmossdk.io/x/feegrant v0.1.1
@@ -18,7 +16,9 @@ require (
 	github.com/cometbft/cometbft v0.38.15
 	github.com/cosmos/cosmos-db v1.1.1
 	github.com/cosmos/cosmos-proto v1.0.0-beta.5
-	github.com/cosmos/cosmos-sdk v0.50.11
+	// cosmossdk.io/core v0.11.0
+	// cosmossdk.io/store v0.0.0-20240718141609-414cbd051fbe
+	github.com/cosmos/cosmos-sdk v0.50.9-evmos
 	github.com/cosmos/go-bip39 v1.0.0
 	github.com/cosmos/gogoproto v1.7.0
 	github.com/cosmos/ibc-go/modules/capability v1.0.1
@@ -26,7 +26,7 @@ require (
 	github.com/creachadair/tomledit v0.0.24
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/dop251/goja v0.0.0-20220405120441-9037c2b61cbf
-	github.com/ethereum/go-ethereum v1.11.5
+	github.com/ethereum/go-ethereum v1.10.26-evmos-rc4
 	github.com/evmos/os/example_chain v0.0.0-20240924163020-b2a4187dad50
 	github.com/golang/protobuf v1.5.4
 	github.com/gorilla/mux v1.8.1
@@ -249,21 +249,15 @@ require (
 
 // replace for local development
 replace github.com/evmos/os/example_chain => ./example_chain
+replace nhooyr.io/websocket v1.8.6 => nhooyr.io/websocket v1.8.7
+
 
 replace (
-	// need this replace when importing cosmos/rosetta pkg
 	cosmossdk.io/core => cosmossdk.io/core v0.11.0
-	// need this replace to pick up the store changes (Copy func) in our cosmos-sdk fork
 	cosmossdk.io/store => github.com/evmos/cosmos-sdk/store v0.0.0-20240718141609-414cbd051fbe
-
-	// use cosmos fork of keyring
 	github.com/99designs/keyring => github.com/cosmos/keyring v1.2.0
-	// use Cosmos-SDK fork to enable Ledger functionality
 	github.com/cosmos/cosmos-sdk => github.com/evmos/cosmos-sdk v0.50.9-evmos
-	// use Evmos geth fork
 	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc4
-	// Security Advisory https://github.com/advisories/GHSA-h395-qcrw-5vmq
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.9.1
-	// replace broken goleveldb
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
 )

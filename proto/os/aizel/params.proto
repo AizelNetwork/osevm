@@ -1,0 +1,15 @@
+syntax = "proto3";
+package os.aizel;
+
+import "amino/amino.proto";
+import "gogoproto/gogo.proto";
+
+option go_package = "github.com/evmos/os/x/aizel/types";
+
+// Params defines the parameters for the module.
+message Params {
+  option (amino.name) = "os/x/aizel/Params";
+  option (gogoproto.equal) = true;
+
+  
+}

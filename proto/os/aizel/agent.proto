@@ -1,0 +1,12 @@
+syntax = "proto3";
+package os.aizel;
+
+option go_package = "github.com/evmos/os/x/aizel/types";
+
+message Agent {
+  
+  string owner = 1; 
+  string name = 2; 
+  string metadata = 3; 
+  uint64 id = 4; 
+}

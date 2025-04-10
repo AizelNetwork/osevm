@@ -1,0 +1,9 @@
+version: 1
+build:
+  main: cmd/evmosd/main.go
+accounts:
+  - name: alice
+    coins: ["100000000stake"]
+client:
+  typescript:
+    path: "ts-client"
