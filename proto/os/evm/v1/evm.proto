@@ -6,7 +6,7 @@ package os.evm.v1;
 import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/evmos/os/x/evm/types";
+option go_package = "github.com/AizelNetwork/osevm/x/evm/types";
 
 // Params defines the EVM module parameters
 message Params {

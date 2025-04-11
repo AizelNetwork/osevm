@@ -11,7 +11,7 @@ import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
 import "os/erc20/v1/genesis.proto";
 
-option go_package = "github.com/evmos/os/x/erc20/types";
+option go_package = "github.com/AizelNetwork/osevm/x/erc20/types";
 
 // Msg defines the erc20 Msg service.
 service Msg {

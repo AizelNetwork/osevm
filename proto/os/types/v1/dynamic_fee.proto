@@ -6,7 +6,7 @@ package os.types.v1;
 import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/evmos/os/types";
+option go_package = "github.com/AizelNetwork/osevm/types";
 
 // ExtensionOptionDynamicFeeTx is an extension option that specifies the
 // maxPrioPrice for cosmos tx

@@ -3,7 +3,7 @@
 PACKAGES_NOSIMULATION=$(shell go list ./... | grep -v '/simulation')
 VERSION ?= $(shell echo $(shell git describe --tags --always) | sed 's/^v//')
 BUILDDIR ?= $(CURDIR)/build
-HTTPS_GIT := https://github.com/evmos/os.git
+HTTPS_GIT := https://github.com/AizelNetwork/osevm.git
 DOCKER := $(shell which docker)
 
 export GO111MODULE = on
@@ -159,7 +159,7 @@ proto-check-breaking:
 ###                                Releasing                                ###
 ###############################################################################
 
-PACKAGE_NAME:=github.com/evmos/os
+PACKAGE_NAME:=github.com/AizelNetwork/osevm
 GOLANG_CROSS_VERSION  = v1.22
 GOPATH ?= '$(HOME)/go'
 release-dry-run:
