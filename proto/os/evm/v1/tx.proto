@@ -12,7 +12,7 @@ import "google/api/annotations.proto";
 import "google/protobuf/any.proto";
 import "os/evm/v1/evm.proto";
 
-option go_package = "github.com/evmos/os/x/evm/types";
+option go_package = "github.com/AizelNetwork/osevm/x/evm/types";
 
 // Msg defines the evm Msg service.
 service Msg {

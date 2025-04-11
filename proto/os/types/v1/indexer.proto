@@ -5,7 +5,7 @@ package os.types.v1;
 
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/evmos/os/types";
+option go_package = "github.com/AizelNetwork/osevm/types";
 
 // TxResult is the value stored in eth tx indexer
 message TxResult {

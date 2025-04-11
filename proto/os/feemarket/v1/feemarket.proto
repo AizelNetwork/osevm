@@ -6,7 +6,7 @@ package os.feemarket.v1;
 import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/evmos/os/x/feemarket/types";
+option go_package = "github.com/AizelNetwork/osevm/x/feemarket/types";
 
 // Params defines the EVM module parameters
 message Params {

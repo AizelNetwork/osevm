@@ -10,7 +10,7 @@ import "google/api/annotations.proto";
 import "os/erc20/v1/erc20.proto";
 import "os/erc20/v1/genesis.proto";
 
-option go_package = "github.com/evmos/os/x/erc20/types";
+option go_package = "github.com/AizelNetwork/osevm/x/erc20/types";
 
 // Query defines the gRPC querier service.
 service Query {

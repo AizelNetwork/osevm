@@ -1,7 +1,7 @@
 syntax = "proto3";
 package os.aizel;
 
-option go_package = "github.com/evmos/os/x/aizel/types";
+option go_package = "github.com/AizelNetwork/osevm/x/aizel/types";
 
 message Agent {
   

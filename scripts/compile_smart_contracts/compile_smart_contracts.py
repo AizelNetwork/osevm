@@ -182,7 +182,7 @@ def is_os_repo(path: Path) -> bool:
             if not line:
                 break
 
-            if "module github.com/evmos/os" in line:
+            if "module github.com/AizelNetwork/osevm" in line:
                 return True
 
     return False

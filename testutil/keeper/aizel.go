@@ -17,8 +17,8 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	"github.com/stretchr/testify/require"
 
-	"github.com/evmos/os/x/aizel/keeper"
-	"github.com/evmos/os/x/aizel/types"
+	"github.com/AizelNetwork/osevm/x/aizel/keeper"
+	"github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 func AizelKeeper(t testing.TB) (keeper.Keeper, sdk.Context) {
@@ -34,10 +34,10 @@ func AizelKeeper(t testing.TB) (keeper.Keeper, sdk.Context) {
 	authority := authtypes.NewModuleAddress(govtypes.ModuleName)
 
 	k := keeper.NewKeeper(
-	    cdc,
-	    runtime.NewKVStoreService(storeKey),
-        log.NewNopLogger(),
-	    authority.String(), 
+		cdc,
+		runtime.NewKVStoreService(storeKey),
+		log.NewNopLogger(),
+		authority.String(),
 	)
 
 	ctx := sdk.NewContext(stateStore, cmtproto.Header{}, false, log.NewNopLogger())

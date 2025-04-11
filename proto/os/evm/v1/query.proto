@@ -11,7 +11,7 @@ import "google/protobuf/timestamp.proto";
 import "os/evm/v1/evm.proto";
 import "os/evm/v1/tx.proto";
 
-option go_package = "github.com/evmos/os/x/evm/types";
+option go_package = "github.com/AizelNetwork/osevm/x/evm/types";
 
 // Query defines the gRPC querier service.
 service Query {

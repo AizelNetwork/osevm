@@ -9,7 +9,7 @@ import "cosmos_proto/cosmos.proto";
 import "gogoproto/gogo.proto";
 import "os/feemarket/v1/feemarket.proto";
 
-option go_package = "github.com/evmos/os/x/feemarket/types";
+option go_package = "github.com/AizelNetwork/osevm/x/feemarket/types";
 
 // Msg defines the feemarket Msg service.
 service Msg {

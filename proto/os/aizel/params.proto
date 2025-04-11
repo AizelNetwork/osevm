@@ -4,7 +4,7 @@ package os.aizel;
 import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 
-option go_package = "github.com/evmos/os/x/aizel/types";
+option go_package = "github.com/AizelNetwork/osevm/x/aizel/types";
 
 // Params defines the parameters for the module.
 message Params {

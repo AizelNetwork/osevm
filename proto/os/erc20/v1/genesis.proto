@@ -7,7 +7,7 @@ import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 import "os/erc20/v1/erc20.proto";
 
-option go_package = "github.com/evmos/os/x/erc20/types";
+option go_package = "github.com/AizelNetwork/osevm/x/erc20/types";
 
 // GenesisState defines the module's genesis state.
 message GenesisState {

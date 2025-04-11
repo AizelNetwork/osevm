@@ -5,7 +5,7 @@ import "amino/amino.proto";
 import "gogoproto/gogo.proto";
 import "os/aizel/params.proto";
 
-option go_package = "github.com/evmos/os/x/aizel/types";
+option go_package = "github.com/AizelNetwork/osevm/x/aizel/types";
 
 // GenesisState defines the aizel module's genesis state.
 message GenesisState {

@@ -3,7 +3,7 @@
 syntax = "proto3";
 package os.evm.v1;
 
-option go_package = "github.com/evmos/os/x/evm/types";
+option go_package = "github.com/AizelNetwork/osevm/x/evm/types";
 
 // EventEthereumTx defines the event for an Ethereum transaction
 message EventEthereumTx {

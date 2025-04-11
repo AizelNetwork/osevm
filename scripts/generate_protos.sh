@@ -18,5 +18,5 @@ for dir in $proto_dirs; do
 done
 
 # move proto files to the right places
-cp -r github.com/evmos/os/* ./
+cp -r github.com/AizelNetwork/osevm/* ./
 rm -rf github.com

@@ -27,7 +27,7 @@ require (
 	github.com/davecgh/go-spew v1.1.2-0.20180830191138-d8f796af33cc
 	github.com/dop251/goja v0.0.0-20220405120441-9037c2b61cbf
 	github.com/ethereum/go-ethereum v1.10.26-evmos-rc4
-	github.com/evmos/os/example_chain v0.0.0-20240924163020-b2a4187dad50
+	github.com/AizelNetwork/osevm/example_chain v0.0.0-20240924163020-b2a4187dad50
 	github.com/golang/protobuf v1.5.4
 	github.com/gorilla/mux v1.8.1
 	github.com/gorilla/websocket v1.5.3
@@ -243,13 +243,12 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.1 // indirect
-	nhooyr.io/websocket v1.8.7 // indirect
+//	nhooyr.io/websocket v1.8.7 // indirect
 	pgregory.net/rapid v1.1.0 // indirect
 )
 
 // replace for local development
-replace github.com/evmos/os/example_chain => ./example_chain
-replace nhooyr.io/websocket v1.8.6 => nhooyr.io/websocket v1.8.7
+replace github.com/AizelNetwork/osevm/example_chain => ./example_chain
 
 
 replace (
@@ -260,4 +259,5 @@ replace (
 	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc4
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.9.1
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
+	nhooyr.io/websocket v1.8.6 => nhooyr.io/websocket v1.8.17
 )
