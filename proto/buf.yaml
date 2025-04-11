@@ -23,5 +23,5 @@ lint:
   - DEFAULT
   - COMMENTS
   - FILE_LOWER_SNAKE_CASE
-name: buf.build/evmos/os
+name: buf.build/AizelNetwork/osevm
 version: v1
