@@ -2,9 +2,9 @@ syntax = "proto3";
 package os.aizel;
 
 import "amino/amino.proto";
+import "cosmos/base/query/v1beta1/pagination.proto";
 import "gogoproto/gogo.proto";
 import "google/api/annotations.proto";
-import "cosmos/base/query/v1beta1/pagination.proto";
 import "os/aizel/params.proto";
 
 option go_package = "github.com/AizelNetwork/osevm/x/aizel/types";
@@ -13,7 +13,7 @@ option go_package = "github.com/AizelNetwork/osevm/x/aizel/types";
 service Query {
   // Parameters queries the parameters of the module.
   rpc Params(QueryParamsRequest) returns (QueryParamsResponse) {
-    option (google.api.http).get = "/evmos/os/aizel/params";
+    option (google.api.http).get = "/AizelNetwork/osevm/aizel/params";
   }
 }
 
