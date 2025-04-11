@@ -14,8 +14,8 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/core"
 	gethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/server/config"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/server/config"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (tf *IntegrationTxFactory) GenerateDefaultTxTypeArgs(sender common.Address, txType int) (evmtypes.EvmTxArgs, error) {

@@ -3,8 +3,8 @@
 package example_chain
 
 import (
-	"github.com/evmos/os/example_chain/eips"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/example_chain/eips"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 // evmosActivators defines a map of opcode modifiers associated

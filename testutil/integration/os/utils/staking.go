@@ -10,8 +10,8 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	"github.com/evmos/os/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
 )
 
 // WaitToAccrueRewards is a helper function that waits for rewards to

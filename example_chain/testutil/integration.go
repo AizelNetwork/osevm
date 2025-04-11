@@ -12,8 +12,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govv1beta1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1beta1"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	exampleapp "github.com/evmos/os/example_chain"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
 )
 
 // SubmitProposal delivers a submit proposal tx for a given gov content.

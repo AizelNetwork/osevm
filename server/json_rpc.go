@@ -11,9 +11,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/server"
 	ethlog "github.com/ethereum/go-ethereum/log"
 	ethrpc "github.com/ethereum/go-ethereum/rpc"
-	"github.com/evmos/os/rpc"
-	serverconfig "github.com/evmos/os/server/config"
-	evmostypes "github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/rpc"
+	serverconfig "github.com/AizelNetwork/osevm/server/config"
+	evmostypes "github.com/AizelNetwork/osevm/types"
 	"github.com/gorilla/mux"
 	"github.com/rs/cors"
 )

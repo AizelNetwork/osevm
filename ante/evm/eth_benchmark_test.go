@@ -9,12 +9,12 @@ import (
 	storetypes "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	ethante "github.com/evmos/os/ante/evm"
-	"github.com/evmos/os/ante/testutils"
-	"github.com/evmos/os/testutil"
-	testutiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/evm/statedb"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	ethante "github.com/AizelNetwork/osevm/ante/evm"
+	"github.com/AizelNetwork/osevm/ante/testutils"
+	"github.com/AizelNetwork/osevm/testutil"
+	testutiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func BenchmarkEthGasConsumeDecorator(b *testing.B) {

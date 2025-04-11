@@ -10,16 +10,16 @@ import (
 
 	"github.com/ethereum/go-ethereum/rpc"
 
-	"github.com/evmos/os/rpc/backend"
-	"github.com/evmos/os/rpc/namespaces/ethereum/debug"
-	"github.com/evmos/os/rpc/namespaces/ethereum/eth"
-	"github.com/evmos/os/rpc/namespaces/ethereum/eth/filters"
-	"github.com/evmos/os/rpc/namespaces/ethereum/miner"
-	"github.com/evmos/os/rpc/namespaces/ethereum/net"
-	"github.com/evmos/os/rpc/namespaces/ethereum/personal"
-	"github.com/evmos/os/rpc/namespaces/ethereum/txpool"
-	"github.com/evmos/os/rpc/namespaces/ethereum/web3"
-	"github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/rpc/backend"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/debug"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/eth"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/eth/filters"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/miner"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/net"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/personal"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/txpool"
+	"github.com/AizelNetwork/osevm/rpc/namespaces/ethereum/web3"
+	"github.com/AizelNetwork/osevm/types"
 
 	rpcclient "github.com/cometbft/cometbft/rpc/jsonrpc/client"
 )

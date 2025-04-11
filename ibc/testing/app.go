@@ -18,10 +18,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ibcgotesting "github.com/cosmos/ibc-go/v8/testing"
-	exampleapp "github.com/evmos/os/example_chain"
-	chainutil "github.com/evmos/os/example_chain/testutil"
-	"github.com/evmos/os/testutil/constants"
-	evmostypes "github.com/evmos/os/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
+	"github.com/AizelNetwork/osevm/testutil/constants"
+	evmostypes "github.com/AizelNetwork/osevm/types"
 	"github.com/stretchr/testify/require"
 )
 

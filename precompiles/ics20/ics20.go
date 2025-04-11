@@ -13,12 +13,12 @@ import (
 	channelkeeper "github.com/cosmos/ibc-go/v8/modules/core/04-channel/keeper"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/precompiles/authorization"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/x/evm/core/vm"
-	evmkeeper "github.com/evmos/os/x/evm/keeper"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	transferkeeper "github.com/evmos/os/x/ibc/transfer/keeper"
+	"github.com/AizelNetwork/osevm/precompiles/authorization"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	evmkeeper "github.com/AizelNetwork/osevm/x/evm/keeper"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	transferkeeper "github.com/AizelNetwork/osevm/x/ibc/transfer/keeper"
 )
 
 // PrecompileAddress of the ICS-20 EVM extension in hex format.

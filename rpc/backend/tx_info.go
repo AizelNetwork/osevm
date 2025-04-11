@@ -16,9 +16,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	rpctypes "github.com/evmos/os/rpc/types"
-	"github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	"github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/pkg/errors"
 )
 

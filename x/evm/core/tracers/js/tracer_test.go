@@ -27,8 +27,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core/state"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/evmos/os/x/evm/core/tracers"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/core/tracers"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 type account struct{}

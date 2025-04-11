@@ -18,8 +18,8 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/eth/filters"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/evmos/os/rpc/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/rpc/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // FilterAPI gathers

@@ -12,17 +12,17 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	consensustypes "github.com/cosmos/cosmos-sdk/x/consensus/types"
 
-	"github.com/evmos/os/ante"
-	evmante "github.com/evmos/os/ante/evm"
-	chainante "github.com/evmos/os/example_chain/ante"
-	chainutil "github.com/evmos/os/example_chain/testutil"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	"github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
-	"github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/ante"
+	evmante "github.com/AizelNetwork/osevm/ante/evm"
+	chainante "github.com/AizelNetwork/osevm/example_chain/ante"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 type AnteTestSuite struct {

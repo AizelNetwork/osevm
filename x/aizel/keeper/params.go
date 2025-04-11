@@ -5,7 +5,7 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/runtime"
 
-    "github.com/evmos/os/x/aizel/types"
+    "github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 

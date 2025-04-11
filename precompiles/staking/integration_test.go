@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	evmosutil "github.com/evmos/os/testutil/constants"
+	evmosutil "github.com/AizelNetwork/osevm/testutil/constants"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/ginkgo/v2"
@@ -23,20 +23,20 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	compiledcontracts "github.com/evmos/os/contracts"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/precompiles/authorization"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/precompiles/distribution"
-	"github.com/evmos/os/precompiles/staking"
-	"github.com/evmos/os/precompiles/staking/testdata"
-	"github.com/evmos/os/precompiles/testutil"
-	"github.com/evmos/os/precompiles/testutil/contracts"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	testutils "github.com/evmos/os/testutil/integration/os/utils"
-	testutiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/evm/core/vm"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	compiledcontracts "github.com/AizelNetwork/osevm/contracts"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/precompiles/authorization"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/precompiles/distribution"
+	"github.com/AizelNetwork/osevm/precompiles/staking"
+	"github.com/AizelNetwork/osevm/precompiles/staking/testdata"
+	"github.com/AizelNetwork/osevm/precompiles/testutil"
+	"github.com/AizelNetwork/osevm/precompiles/testutil/contracts"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	testutils "github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	testutiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func TestPrecompileIntegrationTestSuite(t *testing.T) {

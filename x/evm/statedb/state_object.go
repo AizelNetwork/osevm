@@ -11,7 +11,7 @@ import (
 	storetypes "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // Account is the Ethereum consensus representation of accounts.

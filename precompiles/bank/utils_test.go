@@ -7,9 +7,9 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/precompiles/bank"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/precompiles/bank"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/gomega"

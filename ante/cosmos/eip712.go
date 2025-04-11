@@ -19,10 +19,10 @@ import (
 	ethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/crypto/secp256k1"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	anteinterfaces "github.com/evmos/os/ante/interfaces"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/ethereum/eip712"
-	"github.com/evmos/os/types"
+	anteinterfaces "github.com/AizelNetwork/osevm/ante/interfaces"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/ethereum/eip712"
+	"github.com/AizelNetwork/osevm/types"
 )
 
 var evmosCodec codec.ProtoCodecMarshaler

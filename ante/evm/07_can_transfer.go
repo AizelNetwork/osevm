@@ -12,9 +12,9 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	"github.com/ethereum/go-ethereum/params"
-	anteinterfaces "github.com/evmos/os/ante/interfaces"
-	"github.com/evmos/os/x/evm/statedb"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	anteinterfaces "github.com/AizelNetwork/osevm/ante/interfaces"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // CanTransfer checks if the sender is allowed to transfer funds according to the EVM block

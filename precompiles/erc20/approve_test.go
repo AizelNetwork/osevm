@@ -9,11 +9,11 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/precompiles/authorization"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/precompiles/erc20"
-	"github.com/evmos/os/precompiles/testutil"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/precompiles/authorization"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/precompiles/erc20"
+	"github.com/AizelNetwork/osevm/precompiles/testutil"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 //nolint:dupl // tests are not duplicate between the functions

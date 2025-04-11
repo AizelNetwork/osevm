@@ -13,10 +13,10 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/migrations/legacytx"
 	"github.com/cosmos/cosmos-sdk/x/auth/tx"
 	"github.com/cosmos/gogoproto/proto"
-	enccodec "github.com/evmos/os/encoding/codec"
-	"github.com/evmos/os/ethereum/eip712"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	enccodec "github.com/AizelNetwork/osevm/encoding/codec"
+	"github.com/AizelNetwork/osevm/ethereum/eip712"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"google.golang.org/protobuf/reflect/protoreflect"
 )
 

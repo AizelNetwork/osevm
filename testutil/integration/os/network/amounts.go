@@ -7,9 +7,9 @@ import (
 
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	testconstants "github.com/evmos/os/testutil/constants"
-	"github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	"github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 type InitialAmounts struct {

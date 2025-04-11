@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // GenesisState of the blockchain is represented here as a map of raw json

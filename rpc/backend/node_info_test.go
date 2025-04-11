@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"math/big"
 
-	"github.com/evmos/os/server/config"
-	"github.com/evmos/os/testutil/constants"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/server/config"
+	"github.com/AizelNetwork/osevm/testutil/constants"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 
 	"cosmossdk.io/math"
 	tmrpcclient "github.com/cometbft/cometbft/rpc/client"
@@ -14,8 +14,8 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/rpc/backend/mocks"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/rpc/backend/mocks"
 	"github.com/spf13/viper"
 	"google.golang.org/grpc/metadata"
 )

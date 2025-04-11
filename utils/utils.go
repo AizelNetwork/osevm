@@ -16,7 +16,7 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	ibctransfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
 	"golang.org/x/exp/constraints"
 )
 

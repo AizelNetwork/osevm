@@ -3,8 +3,8 @@ package aizel
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/os/x/aizel/keeper"
-	"github.com/evmos/os/x/aizel/types"
+	"github.com/AizelNetwork/osevm/x/aizel/keeper"
+	"github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 // InitGenesis initializes the module's state from a provided genesis state.

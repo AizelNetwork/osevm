@@ -7,11 +7,11 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 
-	chainutil "github.com/evmos/os/example_chain/testutil"
-	"github.com/evmos/os/precompiles/gov"
-	"github.com/evmos/os/x/evm/core/vm"
-	"github.com/evmos/os/x/evm/statedb"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
+	"github.com/AizelNetwork/osevm/precompiles/gov"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (s *PrecompileTestSuite) TestIsTransaction() {

@@ -3,7 +3,7 @@
 
 package example_chain
 
-import erc20types "github.com/evmos/os/x/erc20/types"
+import erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
 
 // WEVMOSContractMainnet is the WEVMOS contract address for mainnet
 const WEVMOSContractMainnet = "0xD4949664cD82660AaE99bEdc034a0deA8A0bd517"

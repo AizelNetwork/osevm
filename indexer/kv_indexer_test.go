@@ -4,7 +4,7 @@ import (
 	"math/big"
 	"testing"
 
-	"github.com/evmos/os/testutil/constants"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 
 	"cosmossdk.io/log"
 	abci "github.com/cometbft/cometbft/abci/types"
@@ -13,11 +13,11 @@ import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/indexer"
-	"github.com/evmos/os/testutil/integration/os/network"
-	utiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/indexer"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

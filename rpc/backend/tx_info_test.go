@@ -12,11 +12,11 @@ import (
 	dbm "github.com/cosmos/cosmos-db"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/evmos/os/indexer"
-	"github.com/evmos/os/rpc/backend/mocks"
-	rpctypes "github.com/evmos/os/rpc/types"
-	evmostypes "github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/indexer"
+	"github.com/AizelNetwork/osevm/rpc/backend/mocks"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"google.golang.org/grpc/metadata"
 )
 

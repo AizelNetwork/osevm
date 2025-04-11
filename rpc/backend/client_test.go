@@ -16,9 +16,9 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/rpc/backend/mocks"
-	rpc "github.com/evmos/os/rpc/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/rpc/backend/mocks"
+	rpc "github.com/AizelNetwork/osevm/rpc/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/mock"
 	"github.com/stretchr/testify/require"
 )

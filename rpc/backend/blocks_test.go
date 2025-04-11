@@ -13,10 +13,10 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/trie"
-	"github.com/evmos/os/rpc/backend/mocks"
-	ethrpc "github.com/evmos/os/rpc/types"
-	utiltx "github.com/evmos/os/testutil/tx"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/rpc/backend/mocks"
+	ethrpc "github.com/AizelNetwork/osevm/rpc/types"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"google.golang.org/grpc/metadata"
 )
 

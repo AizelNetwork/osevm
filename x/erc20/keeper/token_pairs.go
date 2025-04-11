@@ -9,8 +9,8 @@ import (
 	storetypes "cosmossdk.io/store/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/utils"
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/utils"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 // CreateNewTokenPair creates a new token pair and stores it in the state.

@@ -9,7 +9,7 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/evmos/os/precompiles/authorization"
+	"github.com/AizelNetwork/osevm/precompiles/authorization"
 
 	errorsmod "cosmossdk.io/errors"
 	"cosmossdk.io/math"
@@ -22,8 +22,8 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/x/evm/core/vm"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 // TransferMsgURL is the ICS20 transfer message URL string.

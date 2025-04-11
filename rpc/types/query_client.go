@@ -9,8 +9,8 @@ import (
 	"github.com/cometbft/cometbft/proto/tendermint/crypto"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/types/tx"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 // QueryClient defines a gRPC Client used for:

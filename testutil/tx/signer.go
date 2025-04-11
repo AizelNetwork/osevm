@@ -12,7 +12,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/os/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
 )
 
 // NewAddrKey generates an Ethereum address and its corresponding private key.

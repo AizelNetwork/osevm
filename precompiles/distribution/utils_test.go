@@ -7,8 +7,8 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 
-	"github.com/evmos/os/precompiles/staking"
-	"github.com/evmos/os/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/precompiles/staking"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
 )
 
 type stakingRewards struct {

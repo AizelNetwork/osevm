@@ -3,8 +3,8 @@ package distribution_test
 import (
 	"math/big"
 
-	chainutil "github.com/evmos/os/example_chain/testutil"
-	"github.com/evmos/os/testutil/constants"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -13,9 +13,9 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	gethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/precompiles/distribution"
-	"github.com/evmos/os/x/evm/core/vm"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/precompiles/distribution"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (s *PrecompileTestSuite) TestIsTransaction() {

@@ -19,9 +19,9 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	stakingkeeper "github.com/cosmos/cosmos-sdk/x/staking/keeper"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 func getQueryHelper(ctx sdktypes.Context, encCfg testutil.TestEncodingConfig) *baseapp.QueryServiceTestHelper {

@@ -12,8 +12,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/input"
 	"github.com/cosmos/cosmos-sdk/crypto"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/crypto/hd"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/crypto/hd"
 )
 
 // UnsafeImportKeyCommand imports private keys from a keyfile.

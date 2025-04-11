@@ -12,7 +12,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 var _ types.BankWrapper = BankWrapper{}

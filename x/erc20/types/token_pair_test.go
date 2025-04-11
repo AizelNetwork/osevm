@@ -6,8 +6,8 @@ import (
 
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	"github.com/ethereum/go-ethereum/common"
-	utiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/erc20/types"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/stretchr/testify/suite"
 )
 

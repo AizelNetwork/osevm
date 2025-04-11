@@ -13,8 +13,8 @@ import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	testutiltypes "github.com/cosmos/cosmos-sdk/types/module/testutil"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	"github.com/evmos/os/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
 )
 
 // BaseTxFactory is the interface that wraps the common methods to build and broadcast transactions

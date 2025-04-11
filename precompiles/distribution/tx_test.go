@@ -4,21 +4,21 @@ import (
 	"fmt"
 	"math/big"
 
-	testconstants "github.com/evmos/os/testutil/constants"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
 
 	"cosmossdk.io/math"
-	"github.com/evmos/os/precompiles/testutil"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/precompiles/testutil"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 
 	"github.com/ethereum/go-ethereum/common"
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/x/distribution/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/precompiles/distribution"
-	"github.com/evmos/os/testutil/integration/os/network"
-	utiltx "github.com/evmos/os/testutil/tx"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/precompiles/distribution"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
 )
 
 func (s *PrecompileTestSuite) TestSetWithdrawAddress() {

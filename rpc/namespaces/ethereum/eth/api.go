@@ -12,10 +12,10 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/evmos/os/rpc/backend"
-	rpctypes "github.com/evmos/os/rpc/types"
-	"github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/rpc/backend"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	"github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // The Ethereum API allows applications to connect to an node of any evmOS based blockchain.

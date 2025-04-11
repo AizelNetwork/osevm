@@ -22,9 +22,9 @@ import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/consensus/ethash"
 	"github.com/ethereum/go-ethereum/rlp"
-	"github.com/evmos/os/rpc/backend"
-	rpctypes "github.com/evmos/os/rpc/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/rpc/backend"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	stderrors "github.com/pkg/errors"
 )
 

@@ -12,11 +12,11 @@ import (
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	"github.com/ethereum/go-ethereum/accounts/abi"
-	auth "github.com/evmos/os/precompiles/authorization"
-	cmn "github.com/evmos/os/precompiles/common"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	"github.com/evmos/os/x/evm/core/vm"
-	transferkeeper "github.com/evmos/os/x/ibc/transfer/keeper"
+	auth "github.com/AizelNetwork/osevm/precompiles/authorization"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	transferkeeper "github.com/AizelNetwork/osevm/x/ibc/transfer/keeper"
 )
 
 const (

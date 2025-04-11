@@ -14,12 +14,12 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 
-	"github.com/evmos/os/precompiles/gov"
-	testconstants "github.com/evmos/os/testutil/constants"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/precompiles/gov"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
 
 	"github.com/stretchr/testify/suite"
 )

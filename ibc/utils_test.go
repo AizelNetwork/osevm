@@ -8,9 +8,9 @@ import (
 	transfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
-	evmosibc "github.com/evmos/os/ibc"
-	precompilestestutil "github.com/evmos/os/precompiles/testutil"
-	testconstants "github.com/evmos/os/testutil/constants"
+	evmosibc "github.com/AizelNetwork/osevm/ibc"
+	precompilestestutil "github.com/AizelNetwork/osevm/precompiles/testutil"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
 	"github.com/stretchr/testify/require"
 )
 

@@ -5,10 +5,10 @@ package evm_test
 import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
-	"github.com/evmos/os/ante/evm"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/ante/evm"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
 )
 
 func (suite *EvmAnteTestSuite) TestIncrementSequence() {

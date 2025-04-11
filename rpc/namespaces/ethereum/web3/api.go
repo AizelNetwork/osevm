@@ -6,7 +6,7 @@ package web3
 import (
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/os/version"
+	"github.com/AizelNetwork/osevm/version"
 )
 
 // PublicAPI is the web3_ prefixed set of APIs in the Web3 JSON-RPC spec.

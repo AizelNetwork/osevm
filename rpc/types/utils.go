@@ -21,7 +21,7 @@ import (
 	"github.com/ethereum/go-ethereum/common/math"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // ExceedBlockGasLimitError defines the error message when tx execution exceeds the block gas limit.

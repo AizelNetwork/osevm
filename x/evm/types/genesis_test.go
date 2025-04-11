@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
 	"github.com/stretchr/testify/suite"
 )
 

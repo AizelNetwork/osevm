@@ -7,8 +7,8 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/x/evm/types"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/suite"
 )
 

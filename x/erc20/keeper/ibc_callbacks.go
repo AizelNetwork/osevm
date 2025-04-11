@@ -15,8 +15,8 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	"github.com/cosmos/ibc-go/v8/modules/core/exported"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/ibc"
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/ibc"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/hashicorp/go-metrics"
 )
 

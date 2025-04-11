@@ -10,15 +10,15 @@ import (
 
 	"github.com/cosmos/cosmos-sdk/crypto/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/example_chain/eips"
-	"github.com/evmos/os/example_chain/eips/testdata"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	"github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
-	integrationutils "github.com/evmos/os/testutil/integration/os/utils"
+	"github.com/AizelNetwork/osevm/example_chain/eips"
+	"github.com/AizelNetwork/osevm/example_chain/eips/testdata"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	integrationutils "github.com/AizelNetwork/osevm/testutil/integration/os/utils"
 
-	evmtypes "github.com/evmos/os/x/evm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 
 	"github.com/ethereum/go-ethereum/params"
 

@@ -15,14 +15,14 @@ import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/contracts"
-	"github.com/evmos/os/precompiles/staking"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
-	integrationutils "github.com/evmos/os/testutil/integration/os/utils"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/contracts"
+	"github.com/AizelNetwork/osevm/precompiles/staking"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	integrationutils "github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 type IntegrationTestSuite struct {

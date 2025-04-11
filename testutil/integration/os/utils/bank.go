@@ -10,9 +10,9 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	cmnfactory "github.com/evmos/os/testutil/integration/common/factory"
-	cmnnet "github.com/evmos/os/testutil/integration/common/network"
-	"github.com/evmos/os/testutil/integration/os/keyring"
+	cmnfactory "github.com/AizelNetwork/osevm/testutil/integration/common/factory"
+	cmnnet "github.com/AizelNetwork/osevm/testutil/integration/common/network"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
 )
 
 // FundAccountWithBaseDenom funds the given account with the given amount of the network's

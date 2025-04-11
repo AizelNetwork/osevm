@@ -9,10 +9,10 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/testutil/integration/common/factory"
-	testutils "github.com/evmos/os/testutil/integration/os/utils"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	fmkttypes "github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/testutil/integration/common/factory"
+	testutils "github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	fmkttypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 
 	//nolint:revive // dot imports are fine for Ginkgo
 	. "github.com/onsi/ginkgo/v2"

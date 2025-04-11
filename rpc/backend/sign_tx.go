@@ -19,7 +19,7 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // SendTransaction sends transaction based on received args using Node's key to sign it

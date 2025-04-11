@@ -6,8 +6,8 @@ import (
 	errorsmod "cosmossdk.io/errors"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	gethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/testutil/tx"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/testutil/tx"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // SignMsgEthereumTx signs a MsgEthereumTx with the provided private key and chainID.

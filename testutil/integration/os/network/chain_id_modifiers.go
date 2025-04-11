@@ -8,8 +8,8 @@ package network
 
 import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	testconstants "github.com/evmos/os/testutil/constants"
-	erc20types "github.com/evmos/os/x/erc20/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 // updateErc20GenesisStateForChainID modify the default genesis state for the

@@ -9,10 +9,10 @@ import (
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	testconstants "github.com/evmos/os/testutil/constants"
-	utiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/evm/keeper/testdata"
-	"github.com/evmos/os/x/evm/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/evm/keeper/testdata"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

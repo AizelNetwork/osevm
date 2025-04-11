@@ -5,7 +5,7 @@ package grpc
 import (
 	"context"
 
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 // GetBaseFee returns the base fee from the feemarket module.

@@ -7,12 +7,12 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/evmos/os/precompiles/erc20"
-	"github.com/evmos/os/precompiles/testutil"
-	utiltx "github.com/evmos/os/testutil/tx"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	"github.com/evmos/os/x/evm/core/vm"
-	"github.com/evmos/os/x/evm/statedb"
+	"github.com/AizelNetwork/osevm/precompiles/erc20"
+	"github.com/AizelNetwork/osevm/precompiles/testutil"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
 )
 
 var (

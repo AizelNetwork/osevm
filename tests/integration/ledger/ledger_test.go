@@ -14,11 +14,11 @@ import (
 	sdktestutilmod "github.com/cosmos/cosmos-sdk/types/module/testutil"
 	signingtypes "github.com/cosmos/cosmos-sdk/types/tx/signing"
 	bankcli "github.com/cosmos/cosmos-sdk/x/bank/client/cli"
-	"github.com/evmos/os/crypto/hd"
-	"github.com/evmos/os/encoding"
-	"github.com/evmos/os/tests/integration/ledger/mocks"
-	"github.com/evmos/os/testutil"
-	utiltx "github.com/evmos/os/testutil/tx"
+	"github.com/AizelNetwork/osevm/crypto/hd"
+	"github.com/AizelNetwork/osevm/encoding"
+	"github.com/AizelNetwork/osevm/tests/integration/ledger/mocks"
+	"github.com/AizelNetwork/osevm/testutil"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
 	"github.com/spf13/cobra"
 
 	//nolint:revive // dot imports are fine for Ginkgo

@@ -8,9 +8,9 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 	sdkvesting "github.com/cosmos/cosmos-sdk/x/auth/vesting/types"
 	ibcante "github.com/cosmos/ibc-go/v8/modules/core/ante"
-	evmoscosmosante "github.com/evmos/os/ante/cosmos"
-	evmante "github.com/evmos/os/ante/evm"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	evmoscosmosante "github.com/AizelNetwork/osevm/ante/cosmos"
+	evmante "github.com/AizelNetwork/osevm/ante/evm"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // newCosmosAnteHandler creates the default ante handler for Cosmos transactions

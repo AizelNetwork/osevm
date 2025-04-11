@@ -6,10 +6,10 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
-	"github.com/evmos/os/testutil/integration/os/utils"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

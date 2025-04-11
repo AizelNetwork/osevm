@@ -6,7 +6,7 @@ import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 
-	"github.com/evmos/os/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
 )
 
 // RegisterInterfaces register the evmOS key concrete types.

@@ -11,10 +11,10 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/cosmos/cosmos-sdk/types/tx"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/ante/evm"
-	testconstants "github.com/evmos/os/testutil/constants"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/ante/evm"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 type validateMsgParams struct {

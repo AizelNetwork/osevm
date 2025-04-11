@@ -7,8 +7,8 @@ import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	"github.com/ethereum/go-ethereum/common"
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/x/evm/statedb"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
 )
 
 // UnitTestNetwork is the implementation of the Network interface for unit tests.

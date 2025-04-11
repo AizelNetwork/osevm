@@ -10,7 +10,7 @@ import (
 	"cosmossdk.io/math"
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 // BeginBlock updates base fee

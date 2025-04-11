@@ -10,7 +10,7 @@ import (
 
 	"github.com/cometbft/cometbft/libs/cli"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	"github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/types"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
 )

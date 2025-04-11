@@ -5,8 +5,8 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-    keepertest "github.com/evmos/os/testutil/keeper"
-    "github.com/evmos/os/x/aizel/types"
+    keepertest "github.com/AizelNetwork/osevm/testutil/keeper"
+    "github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 func TestParamsQuery(t *testing.T) {

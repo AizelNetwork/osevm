@@ -14,8 +14,8 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/contracts"
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/contracts"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/hashicorp/go-metrics"
 )
 

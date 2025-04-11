@@ -5,9 +5,9 @@ import (
 	"testing"
 
 	"github.com/ethereum/go-ethereum/common"
-	exampleapp "github.com/evmos/os/example_chain"
-	testconstants "github.com/evmos/os/testutil/constants"
-	"github.com/evmos/os/x/erc20/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/stretchr/testify/require"
 	"github.com/stretchr/testify/suite"
 )

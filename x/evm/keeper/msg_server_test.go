@@ -8,8 +8,8 @@ import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/evmos/os/testutil/integration/os/utils"
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (suite *KeeperTestSuite) TestEthereumTx() {

@@ -13,10 +13,10 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	goethcrypto "github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/rpc/backend/mocks"
-	utiltx "github.com/evmos/os/testutil/tx"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/rpc/backend/mocks"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"google.golang.org/grpc/metadata"
 )
 

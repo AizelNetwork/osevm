@@ -9,9 +9,9 @@ import (
 
 	svrcmd "github.com/cosmos/cosmos-sdk/server/cmd"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	examplechain "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/example_chain/osd/cmd"
-	chainconfig "github.com/evmos/os/example_chain/osd/config"
+	examplechain "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/example_chain/osd/cmd"
+	chainconfig "github.com/AizelNetwork/osevm/example_chain/osd/config"
 )
 
 func main() {

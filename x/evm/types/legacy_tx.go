@@ -10,8 +10,8 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/types"
-	ethutils "github.com/evmos/os/utils/eth"
+	"github.com/AizelNetwork/osevm/types"
+	ethutils "github.com/AizelNetwork/osevm/utils/eth"
 )
 
 func NewLegacyTx(tx *ethtypes.Transaction) (*LegacyTx, error) {

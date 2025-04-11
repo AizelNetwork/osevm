@@ -8,8 +8,8 @@ import (
 	"slices"
 
 	abcitypes "github.com/cometbft/cometbft/abci/types"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // CheckTxTopics checks if all expected topics are present in the transaction response

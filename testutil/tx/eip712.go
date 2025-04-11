@@ -16,10 +16,10 @@ import (
 	authtx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	cryptocodec "github.com/evmos/os/crypto/codec"
-	"github.com/evmos/os/ethereum/eip712"
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/types"
+	cryptocodec "github.com/AizelNetwork/osevm/crypto/codec"
+	"github.com/AizelNetwork/osevm/ethereum/eip712"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/types"
 )
 
 type EIP712TxArgs struct {

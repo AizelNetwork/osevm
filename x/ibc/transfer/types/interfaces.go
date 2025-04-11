@@ -10,7 +10,7 @@ import (
 
 	transfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 
-	erc20types "github.com/evmos/os/x/erc20/types"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 // AccountKeeper defines the expected interface needed to retrieve account info.

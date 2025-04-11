@@ -31,11 +31,11 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/cosmos/gogoproto/proto"
 	capabilitytypes "github.com/cosmos/ibc-go/modules/capability/types"
-	exampleapp "github.com/evmos/os/example_chain"
-	evmostypes "github.com/evmos/os/types"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 // genSetupFn is the type for the module genesis setup functions

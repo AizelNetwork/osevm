@@ -15,8 +15,8 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	transfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
-	"github.com/evmos/os/testutil/integration/os/network"
-	erc20types "github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 const (

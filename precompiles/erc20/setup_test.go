@@ -3,11 +3,11 @@ package erc20_test
 import (
 	"testing"
 
-	erc20precompile "github.com/evmos/os/precompiles/erc20"
-	"github.com/evmos/os/testutil/integration/os/factory"
-	"github.com/evmos/os/testutil/integration/os/grpc"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
+	erc20precompile "github.com/AizelNetwork/osevm/precompiles/erc20"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
 	"github.com/stretchr/testify/suite"
 )
 

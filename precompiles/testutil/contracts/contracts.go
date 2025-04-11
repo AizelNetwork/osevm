@@ -11,11 +11,11 @@ import (
 	abci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	exampleapp "github.com/evmos/os/example_chain"
-	chainutil "github.com/evmos/os/example_chain/testutil"
-	precompiletestutil "github.com/evmos/os/precompiles/testutil"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
+	precompiletestutil "github.com/AizelNetwork/osevm/precompiles/testutil"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // Call is a helper function to call any arbitrary smart contract.

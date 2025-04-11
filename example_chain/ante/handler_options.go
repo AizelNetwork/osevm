@@ -13,7 +13,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/x/auth/ante"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	ibckeeper "github.com/cosmos/ibc-go/v8/modules/core/keeper"
-	anteinterfaces "github.com/evmos/os/ante/interfaces"
+	anteinterfaces "github.com/AizelNetwork/osevm/ante/interfaces"
 )
 
 // HandlerOptions defines the list of module keepers required to run the Evmos

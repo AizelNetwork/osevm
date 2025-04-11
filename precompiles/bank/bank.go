@@ -15,10 +15,10 @@ import (
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/os/precompiles/common"
-	erc20keeper "github.com/evmos/os/x/erc20/keeper"
-	"github.com/evmos/os/x/evm/core/vm"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	erc20keeper "github.com/AizelNetwork/osevm/x/erc20/keeper"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 const (

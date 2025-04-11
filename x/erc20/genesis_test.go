@@ -4,7 +4,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/evmos/os/testutil/constants"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	tmproto "github.com/cometbft/cometbft/proto/tendermint/types"
@@ -12,11 +12,11 @@ import (
 	"github.com/cometbft/cometbft/version"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	transfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/testutil/integration/os/network"
-	utiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/erc20"
-	"github.com/evmos/os/x/erc20/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/erc20"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -8,7 +8,7 @@ import (
 
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	"github.com/evmos/os/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
 )
 
 // FundTxFactory is the interface that wraps the common methods to fund accounts

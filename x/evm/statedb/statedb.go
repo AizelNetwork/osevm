@@ -15,8 +15,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/os/x/evm/core/vm"
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // revision is the identifier of a version of state.

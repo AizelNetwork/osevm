@@ -11,8 +11,8 @@ import (
 	tmrpctypes "github.com/cometbft/cometbft/rpc/core/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	rpctypes "github.com/evmos/os/rpc/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/pkg/errors"
 )
 

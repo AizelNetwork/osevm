@@ -12,10 +12,10 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/crypto"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 
-	"github.com/evmos/os/contracts"
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/contracts"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 // DeployERC20Contract creates and deploys an ERC20 contract on the EVM with the

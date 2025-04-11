@@ -10,14 +10,14 @@ import (
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	chainutil "github.com/evmos/os/example_chain/testutil"
-	"github.com/evmos/os/precompiles/authorization"
-	"github.com/evmos/os/precompiles/staking"
-	testconstants "github.com/evmos/os/testutil/constants"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/x/evm/core/vm"
-	"github.com/evmos/os/x/evm/statedb"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
+	"github.com/AizelNetwork/osevm/precompiles/authorization"
+	"github.com/AizelNetwork/osevm/precompiles/staking"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (s *PrecompileTestSuite) TestIsTransaction() {
