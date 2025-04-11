@@ -7,8 +7,8 @@ import (
 	abci "github.com/cometbft/cometbft/abci/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 
-	"github.com/evmos/os/x/feemarket/keeper"
-	"github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/x/feemarket/keeper"
+	"github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 // InitGenesis initializes genesis state based on exported genesis

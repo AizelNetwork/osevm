@@ -14,7 +14,7 @@ import (
 	"fmt"
 
 	geth "github.com/ethereum/go-ethereum/params"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 // testChainConfig is the chain configuration used in the EVM to defined which

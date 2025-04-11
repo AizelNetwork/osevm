@@ -8,17 +8,17 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 
 	"github.com/ethereum/go-ethereum/accounts/abi"
 	"github.com/ethereum/go-ethereum/common"
 
 	authzkeeper "github.com/cosmos/cosmos-sdk/x/authz/keeper"
 	bankkeeper "github.com/cosmos/cosmos-sdk/x/bank/keeper"
-	cmn "github.com/evmos/os/precompiles/common"
-	erc20 "github.com/evmos/os/precompiles/erc20"
-	erc20types "github.com/evmos/os/x/erc20/types"
-	transferkeeper "github.com/evmos/os/x/ibc/transfer/keeper"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	erc20 "github.com/AizelNetwork/osevm/precompiles/erc20"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
+	transferkeeper "github.com/AizelNetwork/osevm/x/ibc/transfer/keeper"
 )
 
 // abiPath defines the path to the WERC-20 precompile ABI JSON file.

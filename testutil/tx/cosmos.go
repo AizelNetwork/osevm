@@ -11,8 +11,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/tx/signing"
 	authsigning "github.com/cosmos/cosmos-sdk/x/auth/signing"
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/testutil/constants"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 	protov2 "google.golang.org/protobuf/proto"
 )
 

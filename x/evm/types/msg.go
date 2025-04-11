@@ -23,8 +23,8 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	evmapi "github.com/evmos/os/api/os/evm/v1"
-	"github.com/evmos/os/types"
+	evmapi "github.com/AizelNetwork/osevm/api/os/evm/v1"
+	"github.com/AizelNetwork/osevm/types"
 	protov2 "google.golang.org/protobuf/proto"
 )
 

@@ -6,7 +6,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/stretchr/testify/require"
 
-    "github.com/evmos/os/x/aizel/types"
+    "github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 func TestMsgUpdateParams(t *testing.T) {

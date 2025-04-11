@@ -9,11 +9,11 @@ import (
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
-	testconstants "github.com/evmos/os/testutil/constants"
-	grpchandler "github.com/evmos/os/testutil/integration/os/grpc"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	grpchandler "github.com/AizelNetwork/osevm/testutil/integration/os/grpc"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

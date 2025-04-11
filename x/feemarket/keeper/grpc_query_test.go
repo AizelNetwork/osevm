@@ -5,8 +5,8 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/os/testutil/integration/os/network"
-	"github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 )
 

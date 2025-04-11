@@ -13,10 +13,10 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	testconstants "github.com/evmos/os/testutil/constants"
-	testtx "github.com/evmos/os/testutil/tx"
-	evmostypes "github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	testtx "github.com/AizelNetwork/osevm/testutil/tx"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // defaultChain represents the default chain ID used in the suite setup.

@@ -3,10 +3,10 @@ package aizel_test
 import (
 	"testing"
 
-	keepertest "github.com/evmos/os/testutil/keeper"
-	"github.com/evmos/os/testutil/nullify"
-	aizel "github.com/evmos/os/x/aizel/module"
-	"github.com/evmos/os/x/aizel/types"
+	keepertest "github.com/AizelNetwork/osevm/testutil/keeper"
+	"github.com/AizelNetwork/osevm/testutil/nullify"
+	aizel "github.com/AizelNetwork/osevm/x/aizel/module"
+	"github.com/AizelNetwork/osevm/x/aizel/types"
 	"github.com/stretchr/testify/require"
 )
 

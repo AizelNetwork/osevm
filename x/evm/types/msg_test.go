@@ -15,12 +15,12 @@ import (
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/encoding"
-	exampleapp "github.com/evmos/os/example_chain"
-	testconstants "github.com/evmos/os/testutil/constants"
-	utiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/encoding"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/suite"
 )
 

@@ -9,7 +9,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/evmos/os/testutil/constants"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 
 	"cosmossdk.io/math"
 	"github.com/stretchr/testify/suite"
@@ -24,10 +24,10 @@ import (
 	auxTx "github.com/cosmos/cosmos-sdk/x/auth/tx"
 	bankTypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 
-	"github.com/evmos/os/testutil/integration/os/network"
-	"github.com/evmos/os/wallets/ledger"
-	"github.com/evmos/os/wallets/ledger/mocks"
-	"github.com/evmos/os/wallets/usbwallet"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/wallets/ledger"
+	"github.com/AizelNetwork/osevm/wallets/ledger/mocks"
+	"github.com/AizelNetwork/osevm/wallets/usbwallet"
 )
 
 type LedgerTestSuite struct {

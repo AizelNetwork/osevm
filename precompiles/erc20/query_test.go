@@ -7,7 +7,7 @@ import (
 	"math"
 	"math/big"
 
-	chainutil "github.com/evmos/os/example_chain/testutil"
+	chainutil "github.com/AizelNetwork/osevm/example_chain/testutil"
 
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
@@ -15,10 +15,10 @@ import (
 	minttypes "github.com/cosmos/cosmos-sdk/x/mint/types"
 	"github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	"github.com/ethereum/go-ethereum/common"
-	app "github.com/evmos/os/example_chain"
-	auth "github.com/evmos/os/precompiles/authorization"
-	"github.com/evmos/os/precompiles/erc20"
-	"github.com/evmos/os/x/evm/core/vm"
+	app "github.com/AizelNetwork/osevm/example_chain"
+	auth "github.com/AizelNetwork/osevm/precompiles/authorization"
+	"github.com/AizelNetwork/osevm/precompiles/erc20"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 // Define useful variables for tests here.

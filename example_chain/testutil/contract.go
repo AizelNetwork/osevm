@@ -19,10 +19,10 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/testutil/tx"
-	evm "github.com/evmos/os/x/evm/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/testutil/tx"
+	evm "github.com/AizelNetwork/osevm/x/evm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // ContractArgs are the params used for calling a smart contract.

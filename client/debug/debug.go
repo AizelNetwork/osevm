@@ -10,8 +10,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/evmos/os/ethereum/eip712"
-	evmos "github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/ethereum/eip712"
+	evmos "github.com/AizelNetwork/osevm/types"
 
 	"github.com/pkg/errors"
 	"github.com/spf13/cobra"

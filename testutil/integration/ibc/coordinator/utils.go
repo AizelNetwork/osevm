@@ -9,7 +9,7 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
-	"github.com/evmos/os/testutil/integration/common/network"
+	"github.com/AizelNetwork/osevm/testutil/integration/common/network"
 )
 
 // getIBCChains returns a map of TestChain's for the given network interface.

@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/stretchr/testify/require"
 )
 

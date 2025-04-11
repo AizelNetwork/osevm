@@ -10,9 +10,9 @@ import (
 	cryptotypes "github.com/cosmos/cosmos-sdk/crypto/types"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
-	evmosibc "github.com/evmos/os/ibc/testing"
-	"github.com/evmos/os/testutil/integration/common/network"
-	ibcchain "github.com/evmos/os/testutil/integration/ibc/chain"
+	evmosibc "github.com/AizelNetwork/osevm/ibc/testing"
+	"github.com/AizelNetwork/osevm/testutil/integration/common/network"
+	ibcchain "github.com/AizelNetwork/osevm/testutil/integration/ibc/chain"
 )
 
 // Coordinator is the interface that defines the methods that are used to

@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"slices"
 
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 // EVMConfigurator allows to extend x/evm module configurations. The configurator modifies

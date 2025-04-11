@@ -9,9 +9,9 @@ import (
 
 	sdkmath "cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	"github.com/evmos/os/x/evm/wrappers"
-	"github.com/evmos/os/x/evm/wrappers/testutil"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/evm/wrappers"
+	"github.com/AizelNetwork/osevm/x/evm/wrappers/testutil"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/mock/gomock"
 )

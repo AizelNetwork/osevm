@@ -6,7 +6,7 @@ package constants
 import (
 	"fmt"
 
-	evmtypes "github.com/evmos/os/x/evm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 const (

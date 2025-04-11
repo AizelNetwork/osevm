@@ -15,9 +15,9 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/testutil/integration/common/factory"
-	testutils "github.com/evmos/os/testutil/integration/os/utils"
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/testutil/integration/common/factory"
+	testutils "github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 func TestPrecompileIntegrationTestSuite(t *testing.T) {

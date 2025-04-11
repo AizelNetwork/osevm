@@ -22,9 +22,9 @@ import (
 	"github.com/grpc-ecosystem/grpc-gateway/runtime"
 	"github.com/spf13/cobra"
 
-	"github.com/evmos/os/x/erc20/client/cli"
-	"github.com/evmos/os/x/erc20/keeper"
-	"github.com/evmos/os/x/erc20/types"
+	"github.com/AizelNetwork/osevm/x/erc20/client/cli"
+	"github.com/AizelNetwork/osevm/x/erc20/keeper"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 // consensusVersion defines the current x/erc20 module consensus version.

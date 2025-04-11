@@ -16,7 +16,7 @@ import (
 	"github.com/cosmos/cosmos-sdk/telemetry"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
-	"github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/hashicorp/go-metrics"
 )
 

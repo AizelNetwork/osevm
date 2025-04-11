@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	chainconfig "github.com/evmos/os/example_chain/osd/config"
-	"github.com/evmos/os/testutil/constants"
+	chainconfig "github.com/AizelNetwork/osevm/example_chain/osd/config"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 
 	"cosmossdk.io/math"
 
@@ -24,10 +24,10 @@ import (
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/ethereum/eip712"
-	"github.com/evmos/os/testutil/integration/os/network"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/ethereum/eip712"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/suite"
 	"github.com/tidwall/gjson"
 	"github.com/tidwall/sjson"

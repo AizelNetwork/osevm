@@ -13,9 +13,9 @@ import (
 	txtypes "github.com/cosmos/cosmos-sdk/types/tx"
 	"github.com/ethereum/go-ethereum/common"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	anteinterfaces "github.com/evmos/os/ante/interfaces"
-	evmkeeper "github.com/evmos/os/x/evm/keeper"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	anteinterfaces "github.com/AizelNetwork/osevm/ante/interfaces"
+	evmkeeper "github.com/AizelNetwork/osevm/x/evm/keeper"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // MonoDecorator is a single decorator that handles all the prechecks for

@@ -9,7 +9,7 @@ import (
 	"slices"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/types"
 )
 
 // Parameter store key

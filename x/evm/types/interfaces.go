@@ -13,8 +13,8 @@ import (
 	paramtypes "github.com/cosmos/cosmos-sdk/x/params/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/x/evm/core/vm"
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 )
 
 // AccountKeeper defines the expected account keeper interface

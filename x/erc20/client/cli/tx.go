@@ -12,8 +12,8 @@ import (
 	"github.com/cosmos/cosmos-sdk/client/tx"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	evmostypes "github.com/evmos/os/types"
-	"github.com/evmos/os/x/erc20/types"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/spf13/cobra"
 )
 

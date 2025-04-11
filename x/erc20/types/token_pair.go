@@ -7,8 +7,8 @@ import (
 	"github.com/cometbft/cometbft/crypto/tmhash"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	evmostypes "github.com/evmos/os/types"
-	"github.com/evmos/os/utils"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	"github.com/AizelNetwork/osevm/utils"
 )
 
 // NewTokenPairSTRv2 creates a new TokenPair instance in the context of the

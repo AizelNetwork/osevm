@@ -22,10 +22,10 @@ import (
 	"github.com/ethereum/go-ethereum/params"
 	"github.com/ethereum/go-ethereum/rpc"
 	"github.com/ethereum/go-ethereum/signer/core/apitypes"
-	rpctypes "github.com/evmos/os/rpc/types"
-	"github.com/evmos/os/server/config"
-	evmostypes "github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	"github.com/AizelNetwork/osevm/server/config"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // BackendI implements the Cosmos and EVM backend.

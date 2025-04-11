@@ -7,13 +7,13 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	"github.com/evmos/os/ante/evm"
-	"github.com/evmos/os/ante/testutils"
-	"github.com/evmos/os/testutil"
-	testconstants "github.com/evmos/os/testutil/constants"
-	utiltx "github.com/evmos/os/testutil/tx"
-	"github.com/evmos/os/types"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/ante/evm"
+	"github.com/AizelNetwork/osevm/ante/testutils"
+	"github.com/AizelNetwork/osevm/testutil"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	"github.com/AizelNetwork/osevm/types"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (suite *AnteTestSuite) TestGasWantedDecorator() {

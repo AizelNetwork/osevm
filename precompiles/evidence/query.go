@@ -14,7 +14,7 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
 	"github.com/ethereum/go-ethereum/accounts/abi"
-	cmn "github.com/evmos/os/precompiles/common"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
 )
 
 // Evidence implements the query logic for getting evidence by hash.

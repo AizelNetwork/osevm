@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/stretchr/testify/require"
-	"github.com/evmos/os/x/aizel/types"
+	"github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 func TestGenesisState_Validate(t *testing.T) {

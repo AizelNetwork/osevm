@@ -3,11 +3,11 @@ package ante_test
 import (
 	"testing"
 
-	"github.com/evmos/os/ante"
-	ethante "github.com/evmos/os/ante/evm"
-	chainante "github.com/evmos/os/example_chain/ante"
-	"github.com/evmos/os/testutil/integration/os/network"
-	"github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/ante"
+	ethante "github.com/AizelNetwork/osevm/ante/evm"
+	chainante "github.com/AizelNetwork/osevm/example_chain/ante"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	"github.com/AizelNetwork/osevm/types"
 	"github.com/stretchr/testify/require"
 )
 

@@ -3,10 +3,10 @@ package types_test
 import (
 	"testing"
 
-	exampleapp "github.com/evmos/os/example_chain"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
 
-	testconstants "github.com/evmos/os/testutil/constants"
-	"github.com/evmos/os/x/erc20/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"github.com/stretchr/testify/suite"
 )
 

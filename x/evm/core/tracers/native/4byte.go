@@ -24,8 +24,8 @@ import (
 	"time"
 
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/x/evm/core/tracers"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/core/tracers"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 func init() {

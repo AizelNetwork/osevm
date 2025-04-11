@@ -9,8 +9,8 @@ import (
 	"cosmossdk.io/store/prefix"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/cosmos/cosmos-sdk/types/query"
-	evmostypes "github.com/evmos/os/types"
-	"github.com/evmos/os/x/erc20/types"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
 )

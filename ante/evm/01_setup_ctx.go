@@ -9,8 +9,8 @@ import (
 	sdktypes "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	authante "github.com/cosmos/cosmos-sdk/x/auth/ante"
-	anteinterfaces "github.com/evmos/os/ante/interfaces"
-	evmante "github.com/evmos/os/x/evm/ante"
+	anteinterfaces "github.com/AizelNetwork/osevm/ante/interfaces"
+	evmante "github.com/AizelNetwork/osevm/x/evm/ante"
 )
 
 var _ sdktypes.AnteDecorator = &EthSetupContextDecorator{}

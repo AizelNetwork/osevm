@@ -6,8 +6,8 @@ package cli
 import (
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/client/flags"
-	rpctypes "github.com/evmos/os/rpc/types"
-	"github.com/evmos/os/x/evm/types"
+	rpctypes "github.com/AizelNetwork/osevm/rpc/types"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/spf13/cobra"
 )
 

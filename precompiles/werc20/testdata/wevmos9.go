@@ -4,8 +4,8 @@
 package testdata
 
 import (
-	contractutils "github.com/evmos/os/contracts/utils"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	contractutils "github.com/AizelNetwork/osevm/contracts/utils"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // LoadWEVMOS9Contract load the WEVMOS9 contract from the json representation of

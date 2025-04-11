@@ -8,15 +8,15 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 
 	"github.com/ethereum/go-ethereum/common"
-	testfactory "github.com/evmos/os/testutil/integration/os/factory"
-	utiltx "github.com/evmos/os/testutil/tx"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	testfactory "github.com/AizelNetwork/osevm/testutil/integration/os/factory"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/mock"
 
-	"github.com/evmos/os/contracts"
-	"github.com/evmos/os/x/erc20/keeper"
-	"github.com/evmos/os/x/erc20/types"
-	erc20mocks "github.com/evmos/os/x/erc20/types/mocks"
+	"github.com/AizelNetwork/osevm/contracts"
+	"github.com/AizelNetwork/osevm/x/erc20/keeper"
+	"github.com/AizelNetwork/osevm/x/erc20/types"
+	erc20mocks "github.com/AizelNetwork/osevm/x/erc20/types/mocks"
 )
 
 func (suite *KeeperTestSuite) TestQueryERC20() {

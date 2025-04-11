@@ -1,8 +1,8 @@
 package keeper_test
 
 import (
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/x/evm/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 func (suite *KeeperTestSuite) TestParams() {

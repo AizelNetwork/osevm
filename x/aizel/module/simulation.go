@@ -8,9 +8,9 @@ import (
 	simtypes "github.com/cosmos/cosmos-sdk/types/simulation"
 	"github.com/cosmos/cosmos-sdk/x/simulation"
 
-	"github.com/evmos/os/testutil/sample"
-	aizelsimulation "github.com/evmos/os/x/aizel/simulation"
-	"github.com/evmos/os/x/aizel/types"
+	"github.com/AizelNetwork/osevm/testutil/sample"
+	aizelsimulation "github.com/AizelNetwork/osevm/x/aizel/simulation"
+	"github.com/AizelNetwork/osevm/x/aizel/types"
 )
 
 // avoid unused import issue

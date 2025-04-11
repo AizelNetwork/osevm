@@ -8,7 +8,7 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/evmos/os/server/config"
+	"github.com/AizelNetwork/osevm/server/config"
 	"github.com/gorilla/mux"
 	"github.com/improbable-eng/grpc-web/go/grpcweb"
 	"github.com/spf13/cobra"

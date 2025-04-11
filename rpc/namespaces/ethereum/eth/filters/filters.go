@@ -15,8 +15,8 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/crypto"
 	"github.com/ethereum/go-ethereum/eth/filters"
-	"github.com/evmos/os/rpc/backend"
-	"github.com/evmos/os/rpc/types"
+	"github.com/AizelNetwork/osevm/rpc/backend"
+	"github.com/AizelNetwork/osevm/rpc/types"
 	"github.com/pkg/errors"
 )
 

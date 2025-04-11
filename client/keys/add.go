@@ -11,7 +11,7 @@ import (
 	"fmt"
 	"sort"
 
-	cryptohd "github.com/evmos/os/crypto/hd"
+	cryptohd "github.com/AizelNetwork/osevm/crypto/hd"
 
 	bip39 "github.com/cosmos/go-bip39"
 	"github.com/spf13/cobra"

@@ -4,7 +4,7 @@
 package network
 
 import (
-	testconstants "github.com/evmos/os/testutil/constants"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
 )
 
 // chainsWEVMOSHex is an utility map used to retrieve the WEVMOS contract

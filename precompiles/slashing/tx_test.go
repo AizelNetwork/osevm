@@ -8,10 +8,10 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/precompiles/slashing"
-	"github.com/evmos/os/precompiles/testutil"
-	utiltx "github.com/evmos/os/testutil/tx"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/precompiles/slashing"
+	"github.com/AizelNetwork/osevm/precompiles/testutil"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
 )
 
 func (s *PrecompileTestSuite) TestUnjail() {

@@ -16,7 +16,7 @@ import (
 
 	math "cosmossdk.io/math"
 	types "github.com/cosmos/cosmos-sdk/types"
-	types3 "github.com/evmos/os/x/feemarket/types"
+	types3 "github.com/AizelNetwork/osevm/x/feemarket/types"
 	gomock "go.uber.org/mock/gomock"
 )
 

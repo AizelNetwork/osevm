@@ -15,12 +15,12 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
-	cosmosante "github.com/evmos/os/ante/cosmos"
-	"github.com/evmos/os/testutil"
-	"github.com/evmos/os/testutil/integration/common/factory"
-	"github.com/evmos/os/testutil/integration/os/network"
-	utiltx "github.com/evmos/os/testutil/tx"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	cosmosante "github.com/AizelNetwork/osevm/ante/cosmos"
+	"github.com/AizelNetwork/osevm/testutil"
+	"github.com/AizelNetwork/osevm/testutil/integration/common/factory"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

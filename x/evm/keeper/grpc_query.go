@@ -11,8 +11,8 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/evmos/os/x/evm/core/logger"
-	"github.com/evmos/os/x/evm/core/tracers"
+	"github.com/AizelNetwork/osevm/x/evm/core/logger"
+	"github.com/AizelNetwork/osevm/x/evm/core/tracers"
 
 	"google.golang.org/grpc/codes"
 	"google.golang.org/grpc/status"
@@ -26,12 +26,12 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	ethparams "github.com/ethereum/go-ethereum/params"
-	"github.com/evmos/os/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 
-	evmostypes "github.com/evmos/os/types"
-	evmante "github.com/evmos/os/x/evm/ante"
-	"github.com/evmos/os/x/evm/statedb"
-	"github.com/evmos/os/x/evm/types"
+	evmostypes "github.com/AizelNetwork/osevm/types"
+	evmante "github.com/AizelNetwork/osevm/x/evm/ante"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 var _ types.QueryServer = Keeper{}

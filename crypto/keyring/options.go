@@ -8,9 +8,9 @@ import (
 	cosmosLedger "github.com/cosmos/cosmos-sdk/crypto/ledger"
 	"github.com/cosmos/cosmos-sdk/crypto/types"
 
-	"github.com/evmos/os/crypto/ethsecp256k1"
-	"github.com/evmos/os/crypto/hd"
-	"github.com/evmos/os/wallets/ledger"
+	"github.com/AizelNetwork/osevm/crypto/ethsecp256k1"
+	"github.com/AizelNetwork/osevm/crypto/hd"
+	"github.com/AizelNetwork/osevm/wallets/ledger"
 )
 
 // AppName defines the Ledger app used for signing. evmOS uses the Ethereum app

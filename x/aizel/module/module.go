@@ -21,9 +21,9 @@ import (
 
 	// this line is used by starport scaffolding # 1
 
-	modulev1 "github.com/evmos/os/api/os/aizel/module"
-	"github.com/evmos/os/x/aizel/keeper"
-	"github.com/evmos/os/x/aizel/types"
+	modulev1 "github.com/AizelNetwork/osevm/api/os/aizel/module"
+	"github.com/AizelNetwork/osevm/x/aizel/keeper"
+	"github.com/AizelNetwork/osevm/x/aizel/types"
 	
 )
 

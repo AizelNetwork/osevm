@@ -18,10 +18,10 @@ import (
 	"github.com/ethereum/go-ethereum/core"
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/params"
-	"github.com/evmos/os/x/evm/core/vm"
-	"github.com/evmos/os/x/evm/statedb"
-	"github.com/evmos/os/x/evm/types"
-	"github.com/evmos/os/x/evm/wrappers"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/statedb"
+	"github.com/AizelNetwork/osevm/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/evm/wrappers"
 )
 
 // Keeper grants access to the EVM module state and implements the go-ethereum StateDB interface.

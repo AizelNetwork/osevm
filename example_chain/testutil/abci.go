@@ -16,8 +16,8 @@ import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 
-	app "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/testutil/tx"
+	app "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/testutil/tx"
 )
 
 // Commit commits a block at a given time. Reminder: At the end of each

@@ -12,8 +12,8 @@ import (
 	errortypes "github.com/cosmos/cosmos-sdk/types/errors"
 	transfertypes "github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
-	"github.com/evmos/os/utils"
-	transferkeeper "github.com/evmos/os/x/ibc/transfer/keeper"
+	"github.com/AizelNetwork/osevm/utils"
+	transferkeeper "github.com/AizelNetwork/osevm/x/ibc/transfer/keeper"
 )
 
 // GetTransferSenderRecipient returns the sender and recipient sdk.AccAddresses

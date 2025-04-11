@@ -40,7 +40,7 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/evmos/os/x/evm/core/tracers"
+	"github.com/AizelNetwork/osevm/x/evm/core/tracers"
 )
 
 // init registers itself this packages as a lookup for tracers.

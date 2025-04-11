@@ -6,12 +6,12 @@ package utils
 import (
 	codectypes "github.com/cosmos/cosmos-sdk/codec/types"
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
-	exampleapp "github.com/evmos/os/example_chain"
-	"github.com/evmos/os/testutil/constants"
-	testkeyring "github.com/evmos/os/testutil/integration/os/keyring"
-	"github.com/evmos/os/testutil/integration/os/network"
-	utiltx "github.com/evmos/os/testutil/tx"
-	erc20types "github.com/evmos/os/x/erc20/types"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
+	"github.com/AizelNetwork/osevm/testutil/constants"
+	testkeyring "github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	utiltx "github.com/AizelNetwork/osevm/testutil/tx"
+	erc20types "github.com/AizelNetwork/osevm/x/erc20/types"
 )
 
 // CreateGenesisWithTokenPairs creates a genesis that includes

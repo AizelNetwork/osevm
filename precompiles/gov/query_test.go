@@ -13,11 +13,11 @@ import (
 	govtypes "github.com/cosmos/cosmos-sdk/x/gov/types"
 	govv1 "github.com/cosmos/cosmos-sdk/x/gov/types/v1"
 	"github.com/ethereum/go-ethereum/common"
-	cmn "github.com/evmos/os/precompiles/common"
-	"github.com/evmos/os/precompiles/gov"
-	"github.com/evmos/os/precompiles/testutil"
-	testconstants "github.com/evmos/os/testutil/constants"
-	"github.com/evmos/os/x/evm/core/vm"
+	cmn "github.com/AizelNetwork/osevm/precompiles/common"
+	"github.com/AizelNetwork/osevm/precompiles/gov"
+	"github.com/AizelNetwork/osevm/precompiles/testutil"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
 )
 
 var (

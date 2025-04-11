@@ -24,9 +24,9 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
-	"github.com/evmos/os/cmd/config"
-	chainconfig "github.com/evmos/os/example_chain/osd/config"
-	feemarkettypes "github.com/evmos/os/x/feemarket/types"
+	"github.com/AizelNetwork/osevm/cmd/config"
+	chainconfig "github.com/AizelNetwork/osevm/example_chain/osd/config"
+	feemarkettypes "github.com/AizelNetwork/osevm/x/feemarket/types"
 	"github.com/stretchr/testify/require"
 )
 

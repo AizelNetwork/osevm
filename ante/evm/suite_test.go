@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	gethtypes "github.com/ethereum/go-ethereum/core/types"
-	testconstants "github.com/evmos/os/testutil/constants"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
 	"github.com/stretchr/testify/suite"
 )
 

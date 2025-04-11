@@ -14,7 +14,7 @@ import (
 	simtestutil "github.com/cosmos/cosmos-sdk/testutil/sims"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	ibctesting "github.com/cosmos/ibc-go/v8/testing"
-	exampleapp "github.com/evmos/os/example_chain"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
 	"github.com/stretchr/testify/require"
 )
 

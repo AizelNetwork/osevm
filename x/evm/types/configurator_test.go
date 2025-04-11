@@ -6,9 +6,9 @@ package types_test
 import (
 	"testing"
 
-	testconstants "github.com/evmos/os/testutil/constants"
-	"github.com/evmos/os/x/evm/core/vm"
-	"github.com/evmos/os/x/evm/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	"github.com/AizelNetwork/osevm/x/evm/core/vm"
+	"github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/stretchr/testify/require"
 )
 

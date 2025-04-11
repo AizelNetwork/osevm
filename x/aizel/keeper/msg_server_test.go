@@ -6,9 +6,9 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-    keepertest "github.com/evmos/os/testutil/keeper"
-    "github.com/evmos/os/x/aizel/types"
-    "github.com/evmos/os/x/aizel/keeper"
+    keepertest "github.com/AizelNetwork/osevm/testutil/keeper"
+    "github.com/AizelNetwork/osevm/x/aizel/types"
+    "github.com/AizelNetwork/osevm/x/aizel/keeper"
 )
 
 func setupMsgServer(t testing.TB) (keeper.Keeper, types.MsgServer, context.Context) {

@@ -9,9 +9,9 @@ import (
 
 	gethaccounts "github.com/ethereum/go-ethereum/accounts"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/ethereum/eip712"
-	"github.com/evmos/os/wallets/accounts"
-	"github.com/evmos/os/wallets/ledger/mocks"
+	"github.com/AizelNetwork/osevm/ethereum/eip712"
+	"github.com/AizelNetwork/osevm/wallets/accounts"
+	"github.com/AizelNetwork/osevm/wallets/ledger/mocks"
 )
 
 func RegisterDerive(mockWallet *mocks.Wallet, addr common.Address, publicKey *ecdsa.PublicKey) {

@@ -13,7 +13,7 @@ import (
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
 	porttypes "github.com/cosmos/ibc-go/v8/modules/core/05-port/types"
 	"github.com/cosmos/ibc-go/v8/modules/core/exported"
-	evmosibc "github.com/evmos/os/ibc"
+	evmosibc "github.com/AizelNetwork/osevm/ibc"
 )
 
 var _ porttypes.IBCModule = &MockIBCModule{}

@@ -11,7 +11,7 @@ import (
 	cmtstore "github.com/cometbft/cometbft/store"
 	"github.com/cosmos/cosmos-sdk/client"
 	"github.com/cosmos/cosmos-sdk/server"
-	"github.com/evmos/os/indexer"
+	"github.com/AizelNetwork/osevm/indexer"
 	"github.com/spf13/cobra"
 )
 

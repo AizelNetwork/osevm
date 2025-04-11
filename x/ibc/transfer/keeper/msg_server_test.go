@@ -11,10 +11,10 @@ import (
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	"github.com/cosmos/ibc-go/v8/modules/apps/transfer/types"
 	channeltypes "github.com/cosmos/ibc-go/v8/modules/core/04-channel/types"
-	"github.com/evmos/os/testutil/integration/os/keyring"
-	testutils "github.com/evmos/os/testutil/integration/os/utils"
-	evmtypes "github.com/evmos/os/x/evm/types"
-	"github.com/evmos/os/x/ibc/transfer/keeper"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/keyring"
+	testutils "github.com/AizelNetwork/osevm/testutil/integration/os/utils"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
+	"github.com/AizelNetwork/osevm/x/ibc/transfer/keeper"
 	"github.com/stretchr/testify/mock"
 )
 

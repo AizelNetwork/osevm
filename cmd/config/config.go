@@ -5,7 +5,7 @@ package config
 
 import (
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	"github.com/evmos/os/types"
+	"github.com/AizelNetwork/osevm/types"
 )
 
 // SetBip44CoinType sets the global coin type to be used in hierarchical deterministic wallets.

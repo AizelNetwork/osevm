@@ -12,8 +12,8 @@ import (
 
 	"cosmossdk.io/math"
 	sdk "github.com/cosmos/cosmos-sdk/types"
-	testconstants "github.com/evmos/os/testutil/constants"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	testconstants "github.com/AizelNetwork/osevm/testutil/constants"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 )
 
 // ChainsCoinInfo is a map of the chain id and its corresponding EvmCoinInfo

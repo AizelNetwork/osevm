@@ -7,7 +7,7 @@ import (
 	"encoding/json"
 	"time"
 
-	evmostypes "github.com/evmos/os/types"
+	evmostypes "github.com/AizelNetwork/osevm/types"
 
 	"cosmossdk.io/log"
 	"cosmossdk.io/math"
@@ -26,7 +26,7 @@ import (
 	authtypes "github.com/cosmos/cosmos-sdk/x/auth/types"
 	banktypes "github.com/cosmos/cosmos-sdk/x/bank/types"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	exampleapp "github.com/evmos/os/example_chain"
+	exampleapp "github.com/AizelNetwork/osevm/example_chain"
 )
 
 // DefaultConsensusParams defines the default Tendermint consensus params used in

@@ -7,9 +7,9 @@ import (
 
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	"github.com/ethereum/go-ethereum/common"
-	"github.com/evmos/os/precompiles/bank"
-	"github.com/evmos/os/testutil/integration/os/network"
-	evmosutiltx "github.com/evmos/os/testutil/tx"
+	"github.com/AizelNetwork/osevm/precompiles/bank"
+	"github.com/AizelNetwork/osevm/testutil/integration/os/network"
+	evmosutiltx "github.com/AizelNetwork/osevm/testutil/tx"
 )
 
 func (s *PrecompileTestSuite) TestBalances() {

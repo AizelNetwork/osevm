@@ -7,15 +7,15 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/evmos/os/testutil/constants"
+	"github.com/AizelNetwork/osevm/testutil/constants"
 
 	"cosmossdk.io/math"
 	"github.com/cosmos/cosmos-sdk/crypto/keys/ed25519"
 	sdk "github.com/cosmos/cosmos-sdk/types"
 	teststaking "github.com/cosmos/cosmos-sdk/x/staking/testutil"
 	stakingtypes "github.com/cosmos/cosmos-sdk/x/staking/types"
-	app "github.com/evmos/os/example_chain"
-	testutiltx "github.com/evmos/os/testutil/tx"
+	app "github.com/AizelNetwork/osevm/example_chain"
+	testutiltx "github.com/AizelNetwork/osevm/testutil/tx"
 	"github.com/stretchr/testify/require"
 )
 

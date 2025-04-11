@@ -3,7 +3,7 @@ package aizel
 import (
 	autocliv1 "cosmossdk.io/api/cosmos/autocli/v1"
 
-	modulev1 "github.com/evmos/os/api/os/aizel"
+	modulev1 "github.com/AizelNetwork/osevm/api/os/aizel"
 )
 
 // AutoCLIOptions implements the autocli.HasAutoCLIConfig interface.

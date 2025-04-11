@@ -20,8 +20,8 @@ import (
 	ethtypes "github.com/ethereum/go-ethereum/core/types"
 	"github.com/ethereum/go-ethereum/eth/filters"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/evmos/os/rpc/ethereum/pubsub"
-	evmtypes "github.com/evmos/os/x/evm/types"
+	"github.com/AizelNetwork/osevm/rpc/ethereum/pubsub"
+	evmtypes "github.com/AizelNetwork/osevm/x/evm/types"
 	"github.com/pkg/errors"
 )
 
