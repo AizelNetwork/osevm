@@ -1,4 +1,4 @@
-module github.com/evmos/aizel
+module github.com/AizelNetwork/osevm
 
 go 1.22.8
 
