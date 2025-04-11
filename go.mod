@@ -243,7 +243,7 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 	gotest.tools/v3 v3.5.1 // indirect
-//	nhooyr.io/websocket v1.8.7 // indirect
+//	nhooyr.io/websocket v1.8.6 // indirect
 	pgregory.net/rapid v1.1.0 // indirect
 )
 
@@ -259,5 +259,5 @@ replace (
 	github.com/ethereum/go-ethereum => github.com/evmos/go-ethereum v1.10.26-evmos-rc4
 	github.com/gin-gonic/gin => github.com/gin-gonic/gin v1.9.1
 	github.com/syndtr/goleveldb => github.com/syndtr/goleveldb v1.0.1-0.20210819022825-2ae1ddf74ef7
-	nhooyr.io/websocket v1.8.6 => nhooyr.io/websocket v1.8.17
+	nhooyr.io/websocket => nhooyr.io/websocket v1.8.17
 )
